@@ -14,23 +14,54 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="..........assets/css/normalize.css">
-    <link rel="stylesheet" href="............assets/css/style.css">
+    <link rel="stylesheet" href=".........assets/css/style.css">
 </head>
 
-<body>
-    <div class="container">
-        <div class="container col-md-9">
-            <!-- <h1>CURRICULUM VITAE</h1> -->
-            <div class="container text-center mt-5">
-                <div class="container p-5">
+<body class="bg-secondary bg-opacity-10">
+    <div class="container d-flex justify-content-around p-1">
+        <!-- <ul class="nav nav-tabs" id="myTab3" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-vertical-tab" data-toggle="tab" href="#home-vertical" role="tab"
+                    aria-controls="home" aria-selected="true">Tab Vertical #1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="profile-vertical-tab" data-toggle="tab" href="#profile-vertical" role="tab"
+                    aria-controls="profile" aria-selected="false">Tab Vertical #2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-vertical-tab" data-toggle="tab" href="#contact-vertical" role="tab"
+                    aria-controls="contact" aria-selected="false">Tab Vertical #3</a>
+            </li>
+        </ul> -->
+        <!-- <nav id="main-nav" class="main-nav clearfix t-center uppercase tabbed">
+
+            <ul class="clearfix">
+                <li class="active"><a href="#about" class="active"><i class="icon-user"></i>About me<span>ho am
+                            i</span></a></li>
+                <li><a href="#resume"><i class="icon-briefcase"></i>Resume<span>curriculum vita</span></a></li>
+                <li><a href="#portfolio"><i class="icon-camera"></i>Portfolio<span>my works</span></a></li>
+                <li><a href="#blog"><i class="icon-chat"></i>Blog<span>My toughts</span></a></li>
+                <li><a href="#contact"><i class="icon-phone"></i>Contact<span>Say hello</span></a></li>
+            </ul>
+
+        </nav> -->
+        <div class="container col-md-8 bg-white">
+
+            <!-- HEADER CV -->
+            <div class="container mt-5 mb-5 border-bottom border-warning pb-5">
+                <div class="container p-5 text-center">
                     <img src="assets/img/igorllancapan.jpg" class="rounded-circle w-25" alt="igor llancapan img">
                 </div>
-                <h1 class="fs-1">IGOR LLANCAPAN</h1>
-                <h3 class="fs-5">ANALISTA PROGRAMADOR</h3>
+                <h1 class="fs-1 text-center bg-warning">IGOR LLANCAPAN</h1>
+                <h3 class="fs-5 text-center bg-warning">ANALISTA PROGRAMADOR</h3>
             </div>
-            <article class="container mt-5 text-center mb-5">
-                <h2>PERFIL</h2>
-                <p class="fst-italic">
+            <div class="container text-center">
+                <p class="fs-1 fw-bolder text-warning">-</p>
+            </div>
+            <!-- PERFIL CV -->
+            <article class="container mt-5 mb-5 border-bottom pb-5">
+                <!-- <h2 class=" mb-5">Sobre mi</h2> -->
+                <p class="fst-italic text-center">
                     "Soy un profesional creativo con conocimientos en programación y compromiso
                     constante por aprender. Mi pasión por la tecnología y el diseño impulsa mi
                     adquisición de habilidades. A pesar de mi experiencia limitada, demuestro
@@ -38,16 +69,29 @@
                     estar al día en las últimas tendencias tecnológicas."
                 </p>
             </article>
-            <section class="container col-12 mt-5">
-                <h3 class="container text-center">Experiencia Laboral</h3>
-                <div class="container row row-cols-2">
-                    <section class="container float-start ">
+            <!-- REDES SOCIALES CV -->
+            <section class="container mt-5 mb-5 border-bottom pb-5">
+                <h2 class="text-center mb-5 ">Contacto</h2>
+                <ol class="row row-cols-auto d-flex justify-content-evenly">
+                    <li class="list-group-item border-0"><i class="fa-brands fa-linkedin fa-2xl"></i></li>
+                    <li class="list-group-item border-0"><i class="fa-brands fa-github fa-2xl"></i></li>
+                    <li class="list-group-item border-0"><i class="fa-solid fa-envelope fa-2xl"></i></li>
+                </ol>
+            </section>
+            <!-- EXPERIENCIA LABORAL CV-->
+            <section class="container mt-5 mb-5 border-bottom pb-5">
+                <h3 class="container text-center mb-5">Experiencia Laboral</h3>
+                <div class="container row row-cols-3">
+                    <section class="container float-start col-5">
                         <ol class="text-end list-group">
                             <li class="list-group-item border-0">Llegó Última Milla<br />
                                 <p>Febrero - Agosto 2021</p>
                         </ol>
                     </section>
-                    <section class="container float-end">
+                    <div class="container col-2">
+                        <p class="fs-1 fw-bolder text-warning text-center">-</p>
+                    </div>
+                    <section class="container float-end col-5">
                         <ol class="text-start list-group">
                             <li class="list-group-item border-0">
                                 • Desempeñé el rol de Programador en creación de
@@ -66,11 +110,12 @@
                     </section>
                 </div>
             </section>
-            <section class="container mt-5 text-center mb-5">
-                <h3 class="container text-center">Datos Personales</h3>
-                <div class="container row row-cols-2">
-                    <section class="container float-start ">
-                        <ol class="text-end list-group h-1'0">
+            <!-- EDUCACION CV -->
+            <section class="container mt-5 mb-5 border-bottom pb-5">
+                <h3 class="container text-center mb-5">Educación</h3>
+                <div class="container row row-cols-3">
+                    <section class="container float-start col-5">
+                        <ol class="text-end list-group h-100">
                             <li class="list-group-item border-0 h-100">INSTITUTO SANTO TOMÁS
                                 <br />
                                 <p>2019 - 2021</p>
@@ -81,8 +126,12 @@
                             </li>
                         </ol>
                     </section>
-                    <section class="container float-end">
-                        <ol class="text-start list-group h-100">
+                    <div class="container col-2">
+                        <p class="fs-1 fw-bolder text-warning text-center">-</p>
+                    </div>
+                    <section class="container float-end col-5">
+                        <ol class=" text-start list-group h-100">
+
                             <li class="list-group-item border-0 h-100">
                                 Analista Programador
                             </li>
@@ -93,22 +142,32 @@
                     </section>
                 </div>
             </section>
-            <div class="container">
+            <!-- SKILLS CV -->
+            <section class="container mt-5 mb-5 border-bottom pb-5">
+                <h2 class="text-center mb-5">Skills</h2>
+                <div class="container text-center">
+                    <p class="fs-1 fw-bolder text-warning">-</p>
+                </div>
+                <ol class="row row-cols-auto d-flex justify-content-evenly">
+                    <li class="list-group-item border-0"><i class="fa-brands fa-html5 fa-2xl"></i></li>
+                    <li class="list-group-item border-0"><i class="fa-brands fa-css3-alt fa-2xl"></i></li>
+                    <li class="list-group-item border-0"><i class="fa-brands fa-js fa-2xl"></i></li>
+                    <li class="list-group-item border-0"><i class="fa-brands fa-python fa-2xl"></i></li>
+                </ol>
+            </section>
 
-                <h3>Redes</h3>
-                <ul>
-                    <li><a href="https://www.linkedin.com" target="_blank">Linkedin</a></li>
-                    <li><a href="portafolio.html">Portafolio</a></li>
-                </ul>
-            </div>
+            <!-- FOOTER CV -->
+            <footer class="container mt-5 mb-5">
+                <p class="text-center pt-5 pb-5 bg-warning"> by @illancapan - 2023</p>
+            </footer>
         </div>
 
     </div>
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9a3d9b5726.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
