@@ -1,1 +1,17 @@
-/* font-family: 'Roboto', sans-serif; */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+*/ .yellow-on-hover:hover {
+    color: #ffc107 !important;
+}
+
+.nav-link:hover {
+    background-color: #ffc107;
+}
+
+.navbar-toggler-icon:hover {
+    background-color: #ffc107;
+    border: 1px solid #ffc107;
+    color: #fff;
+}
